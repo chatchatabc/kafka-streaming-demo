@@ -1,0 +1,18 @@
+services:
+  zookeeper:
+    image: zookeeper:3.5.10-temurin
+    ports:
+      - "2181:2181"
+    environment:
+      - "ZOOKEEPER_CLIENT_PORT=2181"
+      - "ZOOKEEPER_TICK_TIME=2000"
+  kafka:
+    depends_on:
+      - zookeeper
+    image: bitnami/kafka:latest
+    ports:
+      - "9092:9092"
+    environment:
+        - "ALLOW_PLAINTEXT_LISTENER=yes"
+        - "KAFKA_ZOOKEEPER_CONNECT=zookeeper:2181"
+        - "KAFKA_ADVERTISED_LISTENERS=PLAINTEXT://localhost:9092"
