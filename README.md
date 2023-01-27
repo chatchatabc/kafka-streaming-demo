@@ -23,7 +23,7 @@ topic every 3 seconds using a scheduler with a fixed rate.
    ```shell
    ./mvnw :message-producer:bootRun
    ```
-   The producer logs should be out of sync with the consumer logs.
+   The producer should now start to log generated names every 3 seconds.
 
 3. It should automatically send messages to the Kafka topic.
 
