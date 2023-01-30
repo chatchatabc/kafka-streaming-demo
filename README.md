@@ -60,6 +60,12 @@ serialized to JSON and sent to the Kafka topic.
 The consumer microservice consumes messages from the Kafka topic. The message is deserialized to
 the `NameGeneratedEvent` class and is sent to the consumer. The consumer then logs the `FullName` object.
                   
+ 
+# TODO
+
+* Root module absent
+* Different between Spring Kafka and Spring Cloud Stream 
+* Events processor in DDD
 
 # References
       
