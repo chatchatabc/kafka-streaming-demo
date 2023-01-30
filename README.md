@@ -59,3 +59,12 @@ serialized to JSON and sent to the Kafka topic.
 
 The consumer microservice consumes messages from the Kafka topic. The message is deserialized to
 the `NameGeneratedEvent` class and is sent to the consumer. The consumer then logs the `FullName` object.
+                  
+
+# References
+      
+* Kafka Home: https://kafka.apache.org/
+* Spring Kafka: https://spring.io/projects/spring-kafka
+* Spring Cloud Stream: https://docs.spring.io/spring-cloud-stream/docs/3.2.4/reference/html/index.html
+* Spring Cloud Stream Kafka Binder: https://docs.spring.io/spring-cloud-stream/docs/3.2.4/reference/html/spring-cloud-stream-binder-kafka.html
+* Spring Boot Kafka JsonSerializer Example: https://howtodoinjava.com/kafka/spring-boot-jsonserializer-example/
