@@ -74,3 +74,4 @@ the `NameGeneratedEvent` class and is sent to the consumer. The consumer then lo
 * Spring Cloud Stream: https://docs.spring.io/spring-cloud-stream/docs/3.2.4/reference/html/index.html
 * Spring Cloud Stream Kafka Binder: https://docs.spring.io/spring-cloud-stream/docs/3.2.4/reference/html/spring-cloud-stream-binder-kafka.html
 * Spring Boot Kafka JsonSerializer Example: https://howtodoinjava.com/kafka/spring-boot-jsonserializer-example/
+* Guide to Spring Cloud Stream with Kafka, Apache Avro and Confluent Schema Registry: https://www.baeldung.com/spring-cloud-stream-kafka-avro-confluent
