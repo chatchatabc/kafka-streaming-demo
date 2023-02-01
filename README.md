@@ -6,6 +6,8 @@ sends messages to a specified Kafka topic, and the consumer microservice consume
 This demo is self-contained (there is no entry point for user input). The producer service sends messages to the Kafka
 topic every 3 seconds using a scheduler with a fixed rate.
 
+![Kafka Internal](kafka-internal.png)
+
 # Prerequisites
 
 - [Docker](https://docs.docker.com/) — for running Zookeeper and Kafka in a containerized environment
@@ -68,7 +70,8 @@ the `NameGeneratedEvent` class and is sent to the consumer. The consumer then lo
 * Events processor in DDD
 
 # References
-      
+                       
+* Kafka: An Overview - https://medium.com/@vinciabhinav7/kafka-an-overview-859c51081a30
 * Kafka Home: https://kafka.apache.org/
 * Spring Kafka: https://spring.io/projects/spring-kafka
 * Spring Cloud Stream: https://docs.spring.io/spring-cloud-stream/docs/3.2.4/reference/html/index.html
